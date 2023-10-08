@@ -130,16 +130,16 @@ public class SunmiCloudPrinterMethod {
     }
 
     /**
-     * Added by LepsiCity : release method
+     * Added by LepsiCity : disconnectPrinter method
      * 
-     * Release the printer if it is connected
+     * disconnectPrinter the printer if it is connected
      *
      * @throws PrinterException the printer exception
      */
-    public void release() throws PrinterException {
+    public void disconnectPrinter() throws PrinterException {
         if (SunmiPrinterApi.getInstance().isConnected()) {
             TaskProvider.runFunctionWithException(
-                    () -> SunmiPrinterApi.getInstance().release(_context)
+                    () -> SunmiPrinterApi.getInstance().disconnectPrinter()
             );
         }
     }

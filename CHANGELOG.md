@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.3.0
+
+Fix printer
+
 ## 0.2.0
 
 Rename to cz.lepsipokladna

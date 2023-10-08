@@ -34,9 +34,9 @@ class SunmiCloudPrinter {
     await _channel.invokeMethod('CONNECT');
   }
 
-  /// Added by LepsiCity : release method
-  static Future<void> release() async {
-    await _channel.invokeMethod('RELEASE');
+  /// Added by LepsiCity : disconnectPrinter method
+  static Future<void> disconnectPrinter() async {
+    await _channel.invokeMethod('DISCONNECT_PRINTER');
   }
 
   static Future<bool?> initPrinter() async {

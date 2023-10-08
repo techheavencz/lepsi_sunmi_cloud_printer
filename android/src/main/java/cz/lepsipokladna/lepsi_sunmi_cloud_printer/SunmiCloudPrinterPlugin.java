@@ -62,9 +62,9 @@ public class SunmiCloudPrinterPlugin implements FlutterPlugin, MethodCallHandler
                 result.success(true);
             }
             /// Added by LepsiCity : release method
-            case "RELEASE" -> {
+            case "DISCONNECT_PRINTER" -> {
                 try {
-                    sunmiCloudPrinterMethod.release();
+                    sunmiCloudPrinterMethod.disconnectPrinter();
                 } catch (Exception ignored) {
                     result.success(false);
                     break;
