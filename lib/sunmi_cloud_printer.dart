@@ -39,6 +39,11 @@ class SunmiCloudPrinter {
     await _channel.invokeMethod('RELEASE');
   }
 
+  /// Added by LepsiCity : hard release method
+  static Future<void> hardRelease() async {
+    await _channel.invokeMethod('HARD_RELEASE');
+  }
+
   static Future<bool?> initPrinter() async {
     final bool? status = await _channel.invokeMethod('INIT_PRINTER');
     return status;

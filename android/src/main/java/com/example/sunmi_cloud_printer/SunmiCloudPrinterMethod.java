@@ -145,6 +145,21 @@ public class SunmiCloudPrinterMethod {
     }
 
     /**
+     * Added by LepsiCity : hard release method
+     * 
+     * Hard release the printer, even if it is not connected
+     *
+     * @throws PrinterException the printer exception
+     */
+    public void hardRelease() throws PrinterException {
+        TaskProvider.runFunctionWithException(
+                () -> SunmiPrinterApi.getInstance().release(_context)
+        );
+    }
+
+
+
+    /**
      * Printer initialized.
      *
      * @throws PrinterException the printer exception
