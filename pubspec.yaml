@@ -4,7 +4,7 @@ version: 0.0.5
 repository: "https://github.com/techheavencz/lepsi_sunmi_cloud_printer"
 
 environment:
-  sdk: ">=2.18.0 <3.0.0"
+  sdk: ">=2.18.0 <4.0.0"
   flutter: ">=2.5.0"
 
 dependencies:
