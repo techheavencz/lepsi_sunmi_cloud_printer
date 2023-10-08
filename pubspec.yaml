@@ -1,6 +1,6 @@
 name: lepsi_sunmi_cloud_printer
 description: "Fork of lepsi_sunmi_cloud_printer, providing better support for Sunmi Cloud Printers."
-version: 0.3.0
+version: 0.3.1
 repository: "https://github.com/techheavencz/lepsi_sunmi_cloud_printer"
 
 environment:

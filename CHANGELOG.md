@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.3.1
+
+Fix printer disconnect - add context 
 ## 0.3.0
 
 Fix printer

@@ -139,7 +139,7 @@ public class SunmiCloudPrinterMethod {
     public void disconnectPrinter() throws PrinterException {
         if (SunmiPrinterApi.getInstance().isConnected()) {
             TaskProvider.runFunctionWithException(
-                    () -> SunmiPrinterApi.getInstance().disconnectPrinter()
+                    () -> SunmiPrinterApi.getInstance().disconnectPrinter(_context)
             );
         }
     }
