@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.1
+
+Fix errors 
+
 ## 0.1.0
 
 Start of lepsi_sunmi_cloud_printer fork of this package
