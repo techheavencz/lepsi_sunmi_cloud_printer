@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.4.0
+
+Fix package name
 ## 0.3.1
 
 Fix printer disconnect - add context 

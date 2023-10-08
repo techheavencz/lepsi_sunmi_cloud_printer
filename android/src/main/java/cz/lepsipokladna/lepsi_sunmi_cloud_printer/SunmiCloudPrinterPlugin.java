@@ -1,4 +1,4 @@
-package com.example.lepsi_sunmi_cloud_printer;
+package cz.lepsipokladna.lepsi_sunmi_cloud_printer;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
