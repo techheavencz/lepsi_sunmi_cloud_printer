@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.2.0
+
+Rename to cz.lepsipokladna
+
 ## 0.1.1
 
 Fix errors 
