@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.4.2
+
+Temporary disable toasts for real this 
 ## 0.4.1
 
 Temporary disable toasts
