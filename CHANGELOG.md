@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.4.1
+
+Temporary disable toasts
+
 ## 0.4.0
 
 Fix package name
